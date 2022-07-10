@@ -1,0 +1,125 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    max-width: 375px;
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1, h2 {
+    font-family: 'Fraunces', serif;
+}
+
+h1 {
+    font-size: 2.3rem;
+    padding-bottom: 0.5em;
+    color:hsl(212, 21%, 14%);
+}
+
+h2{
+    color: hsl(158, 36%, 37%);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.95em;
+    line-height: 1.7em;
+}
+
+.container-fluid {
+    padding-top: 2em;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.text {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5em 1.5em 2em 1.5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.uppercase {
+    letter-spacing: 0.2em;
+}
+
+.row {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+p.col {
+
+    /*crossing out the text перекреслення*/
+    text-decoration: line-through;
+    padding-top: 0.5em;
+}
+/*button*/
+.btn {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.btn-block:hover {
+    background-color: hsl(158, 38%, 26%)
+}
+/*footer*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+    max-width: 1440px;
+    width: 50%;
+    }
+
+    .container-fluid { 
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    align-self: center;
+ }
+
+/*body in center центрування елементу на сторінці*/
+    body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-30%, -50%);
+    }
+
+    .img-fluid {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1em;
+        min-width: 200px;
+        max-width: 300px;
+    }
+
+    .text {
+        border-top-right-radius: 1em;  
+        border-bottom-left-radius: 0;
+        max-width: 300px;
+        min-width: 300px;
+        flex-wrap: nowrap;
+    }
+
+    .attribution {
+        padding-top: 2em;
+        margin: 0;
+        text-align: center;
+    }
+}
