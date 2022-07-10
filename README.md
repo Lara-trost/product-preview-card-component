@@ -28,3 +28,4 @@ Users should be able to:
 #### Author
 
 - Frontend Mentor - [@Lara-trost](https://www.frontendmentor.io/profile//Lara-trost)
+-----------------------
