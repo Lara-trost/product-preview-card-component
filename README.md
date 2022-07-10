@@ -15,8 +15,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Lara-trost/product-preview-card-component.git]
+- Live Site URL: [https://lara-trost.github.io/product-preview-card-component/]
 
 ### Built with
 
@@ -28,4 +28,4 @@ Users should be able to:
 #### Author
 
 - Frontend Mentor - [@Lara-trost](https://www.frontendmentor.io/profile//Lara-trost)
------------------------
+---------------------
